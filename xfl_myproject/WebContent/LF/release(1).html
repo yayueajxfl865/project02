@@ -1,0 +1,142 @@
+<!-- 论坛发布页面 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<title>Insert title here</title>
+		<link href="https://cdn.bootcss.com/twitter-bootstrap/3.0.1/css/bootstrap.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script>
+			$(function() {
+				var $inputwrapper = $('.title_box');
+				$inputwrapper.find("#itemName").on('input propertychange', function() {
+					var result = $(this).val().length;
+					if(result > 6){
+						$("#itemHint").css("display","block");
+					}else{
+						$("#itemHint").css("display","none");
+					}
+				});
+			})
+			
+			$(function() {
+				var $inputwrapper = $('.title_box');
+				$inputwrapper.find("#site").on('input propertychange', function() {
+					var result = $(this).val().length;
+					if(result > 10){
+						$("#siteHint").css("display","block");
+					}else{
+						$("#siteHint").css("display","none");
+					}
+				});
+			})
+			
+			$(function() {
+				var $inputwrapper = $('.title_box');
+				$inputwrapper.find("#contacts").on('input propertychange', function() {
+					var result = $(this).val().length;
+					if(result > 4){
+						$("#contactsHint").css("display","block");
+					}else{
+						$("#contactsHint").css("display","none");
+					}
+				});
+			})
+			
+			$(function() {
+				var $inputwrapper = $('.title_box');
+				$inputwrapper.find("#phone").on('input propertychange', function() {
+					var result = $(this).val().length;
+					if(result != 11){
+						$("#phoneHint").css("display","block");
+					}else{
+						$("#phoneHint").css("display","none");
+					}
+				});
+			})
+			
+			$(function() {
+				var $inputwrapper = $('.title_box');
+				$inputwrapper.find("#message").on('input propertychange', function() {
+					var result = $(this).val().length;
+					if(result > 20){
+						$("#messageHint").css("display","block");
+					}else{
+						$("#messageHint").css("display","none");
+					}
+				});
+			})
+		</script>
+		<style>
+			.title_box{ width: 100%; overflow: hidden; display: flex; } 
+			.title_left{width: 120px;height: 40px;border: 1px solid red;float: left;text-align: center; line-height:40px;font-family: "微软雅黑";font-size:16px;border:none;} 
+			.title_right{width: 29px;height: 40px;border: 1px solid green;float: right;border:none;} 
+			.title_box input{width: 95%;font-family: "微软雅黑"; border:none;font-size:14px;height: 30px;margin-top: 6px;} 
+			.title_box textarea{width: 100%;font-family: "微软雅黑"; border:none;font-size:14px;} 
+			.title_bottom{width: 100%;font-family: "微软雅黑"; border:none;font-size:14px;color: red;padding-left: 95px; padding-top: 10px; display: none;}
+			.title_hr{height:1px;border:none;border-top:1px solid #F0F0F0;width:95.5%;}
+		</style>
+	</head>
+	<body bgcolor="#FCFCFC">
+		<form action="" style="margin-top: 20px;">
+			<div class="title_box">
+				<div class="title_left">物品名称</div>
+				<input type="text" id="itemName" />
+				<div class="title_right"></div>
+			</div>
+			<div class="title_bottom" id="itemHint">
+				<p>物品名称不得超过6个字！</p>
+			</div>
+			<hr class="title_hr" />
+
+			<div class="title_box">
+				<div class="title_left">拾到地点</div>
+				<input type="text" id="site" />
+				<div class="title_right"></div>
+			</div>
+			<div class="title_bottom" id="siteHint">
+				<p>拾到地点不得超过10个字！</p>
+			</div>
+			<hr class="title_hr" />
+
+			<div class="title_box">
+				<div class="title_left">拾到时间</div>
+				<input type="text" />
+				<div class="title_right"></div>
+			</div>
+			<hr class="title_hr" />
+
+			<div class="title_box">
+				<div class="title_left">联系人</div>
+				<input type="text" id="contacts" />
+				<div class="title_right"></div>
+			</div>
+			<div class="title_bottom" id="contactsHint">
+				<p>联系人不得超过4个字！</p>
+			</div>
+			<hr class="title_hr" />
+
+			<div class="title_box">
+				<div class="title_left">联系方式</div>
+				<input type="text" id="phone" />
+				<div class="title_right"></div>
+			</div>
+			<div class="title_bottom" id="phoneHint">
+				<p>联系方式只能是11位数字！</p>
+			</div>
+			<hr class="title_hr" />
+
+			<div class="title_box">
+				<div class="title_left">物品特征</div>
+				<textarea name="theme" id="theme" cols="45" rows="5" id="message"></textarea>
+				<div class="title_right"></div>
+			</div>
+			<div class="title_bottom"id="messageHint">
+				<p>物品特征不得超过20个字！</p>
+			</div>
+			<hr class="title_hr" />
+
+		</form>
+	</body>
+</html>

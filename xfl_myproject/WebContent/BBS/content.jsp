@@ -1,0 +1,530 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name='TTUNION_verify' content='b846c3c2b85efabc496d2a2b8399cd62'>
+    <meta name="baidu_union_verify" content="cac58ed2e3155eda17d13f99c687243a">
+    <meta name="sogou_site_verification" content="gI1bINaJcL"/>
+    <meta name="360-site-verification" content="37ae9186443cc6e270d8a52943cd3c5a"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>社区论坛门户咨询网站页面触屏版自适应手机wap门户网站模板下载【http://www.lanrenmb.com/shenghuofuwu/menhu/】</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="iTunesArtwork_402x.png" sizes="114x114" rel="apple-touch-icon-precomposed">
+    <link rel="stylesheet" href="css/amazeui.min.css">
+    <link rel="stylesheet" href="css/wap.css@2">
+</head>
+<body>
+<div data-am-widget="gotop" class="am-gotop am-gotop-fixed">
+    <a href="#top" title="">
+        <img class="am-gotop-icon-custom" src="img/goTop.png"/>
+    </a>
+</div>
+<div class="pet_mian" id="top">
+    
+    
+    
+    
+    
+    <div class="pet_circle_nav">
+        <ul class="pet_circle_nav_list">
+            <li>
+                <a href="nr.html" target="_blank" class="iconfont pet_nav_xinxianshi ">&#xe61e;</a>
+                <span>热门</span>
+            </li>
+            
+             <li>
+                <a href="sx.html" target="_blank" class="iconfont pet_nav_meirong ">&#xe629;</a>
+                <span>全部</span>
+            </li>
+            
+            <li>
+                <a href="gr.html" target="_blank" class="iconfont pet_nav_yiyuan ">&#xe602;</a>
+                <span>分类</span>
+            </li>
+            
+            <li>
+                <a href="zt.html" target="_blank" class="iconfont pet_nav_mengzhuanti ">&#xe622;</a>
+                <span>专题</span>
+            </li>
+    
+        </ul>
+        
+        <div class="pet_more_list">
+            <div class="pet_more_list_block">
+                <div class="iconfont pet_more_close">×</div>
+                <div class="pet_more_list_block">
+                    <div class="pet_more_list_block_name">
+                        <div class="pet_more_list_block_name_title">阅读 Read</div>
+                        <a class="pet_more_list_block_line">
+                            <i class="iconfont pet_nav_xinxianshi pet_more_list_block_line_ico">&#xe61e;</i>
+                            <div class="pet_more_list_block_line_font">新鲜事</div>
+                        </a>
+                        <a class="pet_more_list_block_line">
+                            <i class="iconfont pet_nav_zhangzhishi pet_more_list_block_line_ico">&#xe607;</i>
+                            <div class="pet_more_list_block_line_font">趣闻</div>
+                        </a>
+                        <a class="pet_more_list_block_line">
+                            <i class="iconfont pet_nav_kantuya pet_more_list_block_line_ico">&#xe62c;</i>
+                            <div class="pet_more_list_block_line_font">阅读</div>
+                        </a>
+                        <a class="pet_more_list_block_line">
+                            <i class="iconfont pet_nav_mengzhuanti pet_more_list_block_line_ico">&#xe622;</i>
+                            <div class="pet_more_list_block_line_font">专题</div>
+                        </a>
+                        <a class="pet_more_list_block_line">
+                            <i class="iconfont pet_nav_bk pet_more_list_block_line_ico">&#xe629;</i>
+                            <div class="pet_more_list_block_line_font">订阅</div>
+                        </a>
+                        <a class="pet_more_list_block_line">
+                            <i class="iconfont pet_nav_wd pet_more_list_block_line_ico">&#xe602;</i>
+                            <div class="pet_more_list_block_line_font">专栏</div>
+                        </a>
+                        <div class="pet_more_list_block_name_title pet_more_list_block_line_height">服务 Service</div>
+                        <a class="pet_more_list_block_line">
+                            <i class="iconfont pet_nav_xinxianshi pet_more_list_block_line_ico">&#xe61e;</i>
+                            <div class="pet_more_list_block_line_font">新鲜事</div>
+                        </a>
+                        <a class="pet_more_list_block_line">
+                            <i class="iconfont pet_nav_zhangzhishi pet_more_list_block_line_ico">&#xe607;</i>
+                            <div class="pet_more_list_block_line_font">趣闻</div>
+                        </a>
+                        <a class="pet_more_list_block_line">
+                            <i class="iconfont pet_nav_kantuya pet_more_list_block_line_ico">&#xe62c;</i>
+                            <div class="pet_more_list_block_line_font">阅读</div>
+                        </a>
+                        <a class="pet_more_list_block_line">
+                            <i class="iconfont pet_nav_mengzhuanti pet_more_list_block_line_ico">&#xe622;</i>
+                            <div class="pet_more_list_block_line_font">专题</div>
+                        </a>
+                        <a class="pet_more_list_block_line">
+                            <i class="iconfont pet_nav_bk pet_more_list_block_line_ico">&#xe629;</i>
+                            <div class="pet_more_list_block_line_font">订阅</div>
+                        </a>
+                        <a class="pet_more_list_block_line">
+                            <i class="iconfont pet_nav_wd pet_more_list_block_line_ico">&#xe602;</i>
+                            <div class="pet_more_list_block_line_font">专栏</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 网页主体部分 -->
+    <div class="pet_content_main">
+        <div data-am-widget="list_news" class="am-list-news am-list-news-default">
+            <div class="am-list-news-bd">
+                <ul class="am-list">
+                    <!--缩略图在标题右边-->
+                    
+                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right pet_list_one_block">
+                        <div class="pet_list_one_info">
+                            <div class="pet_list_one_info_l">
+                                <div class="pet_list_one_info_ico">
+                                    <img src="img/a6.png" alt="">
+                                </div>
+                                <div class="pet_list_one_info_name" style="float:left;">La Da Dee</div>
+								<div style="border: 1px solid #0CF;float:left;margin-left: 50px; height: 25px;line-height: 20px;"> <font style="color: #0CF;font-size: 13px;">+ 关注</font></div>
+                            </div>
+							
+                            <div class="pet_list_one_info_r">
+								
+                                <div class="pet_list_tag pet_video_tag" style="float: right;">视频</div>
+								
+                            </div>
+                        </div>
+                        
+                        <div class=" am-u-sm-8 am-list-main pet_list_one_nr">
+                            <h3 class="am-list-item-hd pet_list_one_bt">
+                                <a href="###" class="">好做彼此的天使</a>
+                            </h3>
+                            <br>
+                            <div class="am-list-item-text">国外网友waxiestapple在论坛Reddit贴出爱犬照片，指出“我的狗狗好像瘦了点”“因为我刚刚把最后一口汉堡吃掉”，只见这只哈士奇一脸惨遭背叛的样子，对主人露出相当不可思议的表情。</div>
+                        </div>
+                        
+                        <div class="am-u-sm-4 am-list-thumb pet_video_info">
+                            <a href="###" class="">
+                                <img src="img/q4.jpg" class="pet_list_one_img" alt="我很囧，你保重....晒晒旅行中的那些囧！"/>
+                            </a>
+                        </div>
+                       
+                    </li>
+          
+                </ul>
+                 <div style="width: 100%;height: 30px;margin-top: 0px;">
+					
+					<div style="float: left;">
+						<img src="img/ioc-zf.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">转发</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-pl.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">评论</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-z.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">点赞</font>
+					</div>
+				
+				</div>
+				  				
+				<hr style="height:1px;border:none;border-top:1px solid #F0F0F0;width:100%;" />
+				
+				<ul class="am-list">
+                    <!--缩略图在标题右边-->
+                    
+                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right pet_list_one_block">
+                        <div class="pet_list_one_info">
+                            <div class="pet_list_one_info_l">
+                                <div class="pet_list_one_info_ico">
+                                    <img src="img/a6.png" alt="">
+                                </div>
+                                <div class="pet_list_one_info_name" style="float:left;">La Da Dee</div>
+								<div style="border: 1px solid #0CF;float:left;margin-left: 50px; height: 25px;line-height: 20px;"> <font style="color: #0CF;font-size: 13px;">+ 关注</font></div>
+                            </div>
+							
+                            <div class="pet_list_one_info_r">
+								
+                                <div class="pet_list_tag pet_video_tag" style="float: right;">视频</div>
+								
+                            </div>
+                        </div>
+                        
+                        <div class=" am-u-sm-8 am-list-main pet_list_one_nr">
+                            <h3 class="am-list-item-hd pet_list_one_bt">
+                                <a href="###" class="">好做彼此的天使</a>
+                            </h3>
+                            <br>
+                            <div class="am-list-item-text">国外网友waxiestapple在论坛Reddit贴出爱犬照片，指出“我的狗狗好像瘦了点”“因为我刚刚把最后一口汉堡吃掉”，只见这只哈士奇一脸惨遭背叛的样子，对主人露出相当不可思议的表情。</div>
+                        </div>
+                        
+                        <div class="am-u-sm-4 am-list-thumb pet_video_info">
+                            <a href="###" class="">
+                                <img src="img/q4.jpg" class="pet_list_one_img" alt="我很囧，你保重....晒晒旅行中的那些囧！"/>
+                            </a>
+                        </div>
+                       
+                    </li>
+          
+                </ul>
+                 <div style="width: 100%;height: 30px;margin-top: 0px;">
+					
+					<div style="float: left;">
+						<img src="img/ioc-zf.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">转发</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-pl.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">评论</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-z.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">点赞</font>
+					</div>
+				
+				</div>
+				  				
+				<hr style="height:1px;border:none;border-top:1px solid #F0F0F0;width:100%;" />
+				<ul class="am-list">
+                    <!--缩略图在标题右边-->
+                    
+                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right pet_list_one_block">
+                        <div class="pet_list_one_info">
+                            <div class="pet_list_one_info_l">
+                                <div class="pet_list_one_info_ico">
+                                    <img src="img/a6.png" alt="">
+                                </div>
+                                <div class="pet_list_one_info_name" style="float:left;">La Da Dee</div>
+								<div style="border: 1px solid #0CF;float:left;margin-left: 50px; height: 25px;line-height: 20px;"> <font style="color: #0CF;font-size: 13px;">+ 关注</font></div>
+                            </div>
+							
+                            <div class="pet_list_one_info_r">
+								
+                                <div class="pet_list_tag pet_video_tag" style="float: right;">视频</div>
+								
+                            </div>
+                        </div>
+                        
+                        <div class=" am-u-sm-8 am-list-main pet_list_one_nr">
+                            <h3 class="am-list-item-hd pet_list_one_bt">
+                                <a href="###" class="">好做彼此的天使</a>
+                            </h3>
+                            <br>
+                            <div class="am-list-item-text">国外网友waxiestapple在论坛Reddit贴出爱犬照片，指出“我的狗狗好像瘦了点”“因为我刚刚把最后一口汉堡吃掉”，只见这只哈士奇一脸惨遭背叛的样子，对主人露出相当不可思议的表情。</div>
+                        </div>
+                        
+                        <div class="am-u-sm-4 am-list-thumb pet_video_info">
+                            <a href="###" class="">
+                                <img src="img/q4.jpg" class="pet_list_one_img" alt="我很囧，你保重....晒晒旅行中的那些囧！"/>
+                            </a>
+                        </div>
+                       
+                    </li>
+          
+                </ul>
+                 <div style="width: 100%;height: 30px;margin-top: 0px;">
+					
+					<div style="float: left;">
+						<img src="img/ioc-zf.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">转发</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-pl.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">评论</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-z.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">点赞</font>
+					</div>
+				
+				</div>
+				  				
+				<hr style="height:1px;border:none;border-top:1px solid #F0F0F0;width:100%;" />
+				<ul class="am-list">
+                    <!--缩略图在标题右边-->
+                    
+                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right pet_list_one_block">
+                        <div class="pet_list_one_info">
+                            <div class="pet_list_one_info_l">
+                                <div class="pet_list_one_info_ico">
+                                    <img src="img/a6.png" alt="">
+                                </div>
+                                <div class="pet_list_one_info_name" style="float:left;">La Da Dee</div>
+								<div style="border: 1px solid #0CF;float:left;margin-left: 50px; height: 25px;line-height: 20px;"> <font style="color: #0CF;font-size: 13px;">+ 关注</font></div>
+                            </div>
+							
+                            <div class="pet_list_one_info_r">
+								
+                                <div class="pet_list_tag pet_video_tag" style="float: right;">视频</div>
+								
+                            </div>
+                        </div>
+                        
+                        <div class=" am-u-sm-8 am-list-main pet_list_one_nr">
+                            <h3 class="am-list-item-hd pet_list_one_bt">
+                                <a href="###" class="">好做彼此的天使</a>
+                            </h3>
+                            <br>
+                            <div class="am-list-item-text">国外网友waxiestapple在论坛Reddit贴出爱犬照片，指出“我的狗狗好像瘦了点”“因为我刚刚把最后一口汉堡吃掉”，只见这只哈士奇一脸惨遭背叛的样子，对主人露出相当不可思议的表情。</div>
+                        </div>
+                        
+                        <div class="am-u-sm-4 am-list-thumb pet_video_info">
+                            <a href="###" class="">
+                                <img src="img/q4.jpg" class="pet_list_one_img" alt="我很囧，你保重....晒晒旅行中的那些囧！"/>
+                            </a>
+                        </div>
+                       
+                    </li>
+          
+                </ul>
+                 <div style="width: 100%;height: 30px;margin-top: 0px;">
+					
+					<div style="float: left;">
+						<img src="img/ioc-zf.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">转发</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-pl.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">评论</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-z.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">点赞</font>
+					</div>
+				
+				</div>
+				  				
+				<hr style="height:1px;border:none;border-top:1px solid #F0F0F0;width:100%;" />
+				<ul class="am-list">
+                    <!--缩略图在标题右边-->
+                    
+                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right pet_list_one_block">
+                        <div class="pet_list_one_info">
+                            <div class="pet_list_one_info_l">
+                                <div class="pet_list_one_info_ico">
+                                    <img src="img/a6.png" alt="">
+                                </div>
+                                <div class="pet_list_one_info_name" style="float:left;">La Da Dee</div>
+								<div style="border: 1px solid #0CF;float:left;margin-left: 50px; height: 25px;line-height: 20px;"> <font style="color: #0CF;font-size: 13px;">+ 关注</font></div>
+                            </div>
+							
+                            <div class="pet_list_one_info_r">
+								
+                                <div class="pet_list_tag pet_video_tag" style="float: right;">视频</div>
+								
+                            </div>
+                        </div>
+                        
+                        <div class=" am-u-sm-8 am-list-main pet_list_one_nr">
+                            <h3 class="am-list-item-hd pet_list_one_bt">
+                                <a href="###" class="">好做彼此的天使</a>
+                            </h3>
+                            <br>
+                            <div class="am-list-item-text">国外网友waxiestapple在论坛Reddit贴出爱犬照片，指出“我的狗狗好像瘦了点”“因为我刚刚把最后一口汉堡吃掉”，只见这只哈士奇一脸惨遭背叛的样子，对主人露出相当不可思议的表情。</div>
+                        </div>
+                        
+                        <div class="am-u-sm-4 am-list-thumb pet_video_info">
+                            <a href="###" class="">
+                                <img src="img/q4.jpg" class="pet_list_one_img" alt="我很囧，你保重....晒晒旅行中的那些囧！"/>
+                            </a>
+                        </div>
+                       
+                    </li>
+          
+                </ul>
+                 <div style="width: 100%;height: 30px;margin-top: 0px;">
+					
+					<div style="float: left;">
+						<img src="img/ioc-zf.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">转发</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-pl.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">评论</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-z.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">点赞</font>
+					</div>
+				
+				</div>
+				  				
+				<hr style="height:1px;border:none;border-top:1px solid #F0F0F0;width:100%;" />
+				<ul class="am-list">
+                    <!--缩略图在标题右边-->
+                    
+                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right pet_list_one_block">
+                        <div class="pet_list_one_info">
+                            <div class="pet_list_one_info_l">
+                                <div class="pet_list_one_info_ico">
+                                    <img src="img/a6.png" alt="">
+                                </div>
+                                <div class="pet_list_one_info_name" style="float:left;">La Da Dee</div>
+								<div style="border: 1px solid #0CF;float:left;margin-left: 50px; height: 25px;line-height: 20px;"> <font style="color: #0CF;font-size: 13px;">+ 关注</font></div>
+                            </div>
+							
+                            <div class="pet_list_one_info_r">
+								
+                                <div class="pet_list_tag pet_video_tag" style="float: right;">视频</div>
+								
+                            </div>
+                        </div>
+                        
+                        <div class=" am-u-sm-8 am-list-main pet_list_one_nr">
+                            <h3 class="am-list-item-hd pet_list_one_bt">
+                                <a href="###" class="">好做彼此的天使</a>
+                            </h3>
+                            <br>
+                            <div class="am-list-item-text">国外网友waxiestapple在论坛Reddit贴出爱犬照片，指出“我的狗狗好像瘦了点”“因为我刚刚把最后一口汉堡吃掉”，只见这只哈士奇一脸惨遭背叛的样子，对主人露出相当不可思议的表情。</div>
+                        </div>
+                        
+                        <div class="am-u-sm-4 am-list-thumb pet_video_info">
+                            <a href="###" class="">
+                                <img src="img/q4.jpg" class="pet_list_one_img" alt="我很囧，你保重....晒晒旅行中的那些囧！"/>
+                            </a>
+                        </div>
+                       
+                    </li>
+          
+                </ul>
+                 <div style="width: 100%;height: 30px;margin-top: 0px;">
+					
+					<div style="float: left;">
+						<img src="img/ioc-zf.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">转发</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-pl.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">评论</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-z.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">点赞</font>
+					</div>
+				
+				</div>
+				  				
+				<hr style="height:1px;border:none;border-top:1px solid #F0F0F0;width:100%;" />
+				<ul class="am-list">
+                    <!--缩略图在标题右边-->
+                    
+                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right pet_list_one_block">
+                        <div class="pet_list_one_info">
+                            <div class="pet_list_one_info_l">
+                                <div class="pet_list_one_info_ico">
+                                    <img src="img/a6.png" alt="">
+                                </div>
+                                <div class="pet_list_one_info_name" style="float:left;">La Da Dee</div>
+								<div style="border: 1px solid #0CF;float:left;margin-left: 50px; height: 25px;line-height: 20px;"> <font style="color: #0CF;font-size: 13px;">+ 关注</font></div>
+                            </div>
+							
+                            <div class="pet_list_one_info_r">
+								
+                                <div class="pet_list_tag pet_video_tag" style="float: right;">视频</div>
+								
+                            </div>
+                        </div>
+                        
+                        <div class=" am-u-sm-8 am-list-main pet_list_one_nr">
+                            <h3 class="am-list-item-hd pet_list_one_bt">
+                                <a href="###" class="">好做彼此的天使</a>
+                            </h3>
+                            <br>
+                            <div class="am-list-item-text">国外网友waxiestapple在论坛Reddit贴出爱犬照片，指出“我的狗狗好像瘦了点”“因为我刚刚把最后一口汉堡吃掉”，只见这只哈士奇一脸惨遭背叛的样子，对主人露出相当不可思议的表情。</div>
+                        </div>
+                        
+                        <div class="am-u-sm-4 am-list-thumb pet_video_info">
+                            <a href="###" class="">
+                                <img src="img/q4.jpg" class="pet_list_one_img" alt="我很囧，你保重....晒晒旅行中的那些囧！"/>
+                            </a>
+                        </div>
+                       
+                    </li>
+          
+                </ul>
+                 <div style="width: 100%;height: 30px;margin-top: 0px;">
+					
+					<div style="float: left;">
+						<img src="img/ioc-zf.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">转发</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-pl.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">评论</font>
+					</div>
+					<div style="float: left;margin-left: 30px;">
+						<img src="img/ioc-z.png" style="width: 20px; height: 20px;"/><font style="color: #757575;font-size: 10px;font-family:Simsun;">点赞</font>
+					</div>
+				
+				</div>
+				  				
+				<hr style="height:1px;border:none;border-top:1px solid #F0F0F0;width:100%;" />
+				
+				
+				
+				
+				
+            </div>
+        </div>
+    </div>
+   
+        </div>
+    
+<script src="js/jquery.min.js"></script>
+<script src="js/amazeui.min.js"></script>
+<script>
+    $(function() {
+
+        // 动态计算新闻列表文字样式
+        auto_resize();
+        $(window).resize(function() {
+            auto_resize();
+        });
+        $('.am-list-thumb img').load(function() {
+            auto_resize();
+        });
+
+        $('.am-list > li:last-child').css('border', 'none');
+        function auto_resize() {
+            $('.pet_list_one_nr').height($('.pet_list_one_img').height());
+
+        }
+        $('.pet_nav_gengduo').on('click', function() {
+            $('.pet_more_list').addClass('pet_more_list_show');
+        });
+        $('.pet_more_close').on('click', function() {
+            $('.pet_more_list').removeClass('pet_more_list_show');
+        });
+    });
+</script>
+</body>
+</html>
+    

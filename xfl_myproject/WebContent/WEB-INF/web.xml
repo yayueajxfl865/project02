@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+
+
+
+
+<!-- The front controller of this Spring Web application, responsible for handling all application requests -->
+<!-- 配置springmvc的DispatcherServlet -->	
+	<servlet>
+		<servlet-name>springDispatcherServlet</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath:springmvc.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<!-- Map all requests to the DispatcherServlet for handling -->
+	<servlet-mapping>
+		<servlet-name>springDispatcherServlet</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+<!-- 以上是基于SSM构架开发 -->
+
+<!-- 以下是传统的mvc架构 -->
+	<display-name>xfl_myproject</display-name>
+	<welcome-file-list>
+		<welcome-file>goods_index.jsp</welcome-file>
+	</welcome-file-list>
+
+	
+
+	
+
+
+	<listener>
+		<listener-class>com.chat.listener.MyServletContextListener</listener-class>
+	</listener>
+	<servlet>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>com.chat.action.UserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/user</url-pattern>
+	</servlet-mapping>
+</web-app>

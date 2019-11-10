@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xfl.mybatis.dao.EmployeeMapper">
+<!-- 
+namespace:名称空间;指定为接口的全类名
+id：唯一标识
+resultType：返回值类型
+#{id}：从传递过来的参数中取出id值
+
+public Employee getEmpById(Integer id);
+ -->
+ 
+ 
+ 
+ 
+	<select id="getEmpById" resultType="com.xfl.mybatis.bean.Employee">
+		select id,last_name lastName,email,gender from tbl_employee where id = #{id} and gender=#{gender}
+	</select>
+	
+	
+	<select id="getEmpByIdReturnMap" resultType="map">
+	select * from tbl_employee where id=#{id}
+	
+	
+	</select>
+	
+	<select id="getEmpReturnManyMap" resultType="com.xfl.mybatis.bean.Employee">
+	select * from tbl_employee where last_name like #{lastName} or email like #{las} or gender like #{a}    
+	
+	</select>
+	
+	
+	<!-- useGeneratedKeys="true"使用自主增主键获取主键值策略
+	keyProperty="id"指定对应属性
+	-->
+	<insert id="addEmp" useGeneratedKeys="true" keyProperty="id">
+	insert into tbl_employee(last_name,gender,email)
+	values(#{lastName},#{gender},#{email})
+	</insert>
+	
+	<update id="updateEmp">
+	
+	update tbl_employee 
+	set last_name=#{lastName},gender=#{gender},email=#{email}
+	where id=#{id}
+	
+	</update>
+	
+	<delete id="deleteEmpById">
+	delete from tbl_employee where id=#{id}
+	</delete>
+</mapper>

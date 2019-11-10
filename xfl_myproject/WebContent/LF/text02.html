@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+<link rel="stylesheet" href="css/ad.css" />
+<link rel="stylesheet" href="css/video.css" />
+<link rel="stylesheet" href="css/global.css?v=1.3" />
+<link rel="stylesheet" href="css/index.css?v129" />
+
+</head>
+<body style="background-color:" >
+   
+<div class="header" >
+    <div class="hd_top">
+		<a class="nav" href="#"><i></i></a>
+		<a class="user" href="#">
+				<i></i></a>
+			    <a class="search" href="#"><i></i></a>
+						<a class="home" onclick="window.location.href='#'"><i></i></a>	
+				
+		
+						<h1 class="caption" id="recent-btn">论坛</h1>
+				                                	</div>
+		<div class="hd_bottom">
+		<div class="search_box">
+			<form action="" method="get">
+            	<input type="hidden" name="s" value="5946671531345126826">
+            	<input type="hidden" name="nsid" value="2">
+            	<input type="search" class="s_txt" placeholder = "搜你想要的..." id="searchContent" name="q">
+            	<input type="submit" class="s_btn" id="doSearch" value="">
+                <i class="clear_btn"></i>
+            </form>
+		</div>
+	</div>
+	</div>
+ 
+
+	
+	<!-- 论坛 -->
+	
+<script type="text/javascript" src="js/shuo.js"></script>
+<script src="js/t.min.js" data-options="t.my,t.flipview,t.daohang"></script>
+
+<!--底部通栏广告 14/4/15-->
+
+
+
+
+
+
+
+
+
+<!-- 底部浮层关闭 add by Liang.jw -->
+<script type="text/javascript">
+var closeBtn = document.querySelector('.bottom_down b');
+if(window.localStorage){
+    if(localStorage.getItem("55closeTime")){
+        var _myflog = true;
+        var nowTime = new Date().getTime();
+        var days = parseInt((nowTime-localStorage.getItem("55closeTime"))/(24 * 60 * 60 * 1000));
+        document.querySelector('.bottom_down').style.display = 'none';
+        if(days>=15){
+            localStorage.removeItem("55closeTime");
+            document.querySelector('.bottom_down').style.display = 'block';
+            _myflog = false;
+        }
+    }
+    closeBtn.addEventListener('click',function(){
+        document.querySelector('.bottom_down').style.display = 'none';
+        var closeTime = new Date().getTime();
+        localStorage.setItem("55closeTime",closeTime);
+        _myflog = true;
+    },false);
+}else{
+    var _myflog = false;
+    closeBtn.addEventListener('click',function(){
+        document.querySelector('.bottom_down').style.display = 'none';
+        _myflog = true;
+    },false);
+};
+function getScrollTop(){
+　　var scrollTop = 0, bodyScrollTop = 0, documentScrollTop = 0;
+　　if(document.body){
+　　　　bodyScrollTop = document.body.scrollTop;
+　　}
+　　if(document.documentElement){
+　　　　documentScrollTop = document.documentElement.scrollTop;
+　　}
+　　scrollTop = (bodyScrollTop - documentScrollTop > 0) ? bodyScrollTop : documentScrollTop;
+　　return scrollTop;
+}
+function getScrollHeight(){
+　　var scrollHeight = 0, bodyScrollHeight = 0, documentScrollHeight = 0;
+　　if(document.body){
+　　　　bodyScrollHeight = document.body.scrollHeight;
+　　}
+　　if(document.documentElement){
+　　　　documentScrollHeight = document.documentElement.scrollHeight;
+　　}
+　　scrollHeight = (bodyScrollHeight - documentScrollHeight > 0) ? bodyScrollHeight : documentScrollHeight;
+　　return scrollHeight;
+}
+function getWindowHeight(){
+　　var windowHeight = 0;
+　　if(document.compatMode == "CSS1Compat"){
+　　　　windowHeight = document.documentElement.clientHeight;
+　　}else{
+　　　　windowHeight = document.body.clientHeight;
+　　}
+　　return windowHeight;
+}
+window.onscroll = function(){
+    if(!_myflog){
+    　　if(getScrollTop() + getWindowHeight() >= getScrollHeight()-20){
+    　　　　document.querySelector('.bottom_down').style.display = 'none';
+    　　}else{
+            document.querySelector('.bottom_down').style.display = 'block';
+        }
+    }
+};
+</script>
+<script>
+	//go-top
+	if(document.querySelector('.bottom-choose .go-top')){
+		function onScroll(){document.querySelector('.bottom-choose .go-top').style.display=(window.scrollY>document.documentElement.clientHeight)?'block':'none'}
+		window.addEventListener('scroll', onScroll);
+		onScroll();
+	}
+	</script>
+<!-- 站内搜索 start-->
+<script>
+	try{
+		var search_flog = true;
+		document.querySelector('.header .search').addEventListener('click',function(){
+    		if(search_flog){
+    			document.querySelector('.header .hd_bottom').style.display = 'block';
+    			search_flog = false;
+    		}else{
+    			document.querySelector('.header .hd_bottom').style.display = 'none';
+    			search_flog = true;
+    		}
+    	},false);
+		// 清除搜索框
+		document.querySelector('.search_box .s_txt').onfocus = function(){
+			document.querySelector('.search_box .s_txt').oninput = function(){
+				if(document.querySelector('.search_box .s_txt').value != ''){
+					document.querySelector('.search_box .clear_btn').style.display = 'block';
+				}else{
+					document.querySelector('.search_box .clear_btn').style.display = 'none';
+				}
+			}
+		}
+		document.querySelector('.search_box .clear_btn').onclick = function(){
+			document.querySelector('.search_box .s_txt').value = '';
+			document.querySelector('.search_box .clear_btn').style.display = 'none';
+			document.getElementById("searchContent").focus();
+		}
+	}catch(e){}
+</script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+
+<!-- 配置springmvc自动扫描的包 -->
+<context:component-scan base-package="com.xfl.springmvc"></context:component-scan>
+<!-- 配置视图解析器-->
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+<property name="prefix" value="/WEB-INF/views/forum/"></property>
+<property name="suffix" value=".jsp"></property>
+
+</bean>
+
+<!-- springmvc必须配置的标签 -->
+
+<mvc:annotation-driven></mvc:annotation-driven>
+<!-- springmvc处理静态资源 -->
+<mvc:default-servlet-handler/>
+
+<!-- springmvc -->
+<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+<property name="defaultEncoding" value="UTF-8"></property>
+<property name="maxInMemorySize" value="1024000"></property>
+</bean>
+
+
+<!-- 配置springmvc可以直接转发的页面 -->
+
+<mvc:view-controller path="/content" view-name="content"/>
+<mvc:view-controller path="/release" view-name="release"/>
+<mvc:view-controller path="/all" view-name="all"/>
+<mvc:view-controller path="/relea_frame" view-name="relea_frame"/>
+<mvc:view-controller path="/upload" view-name="upload"/>
+<mvc:view-controller path="/release" view-name="release"/>
+
+</beans>

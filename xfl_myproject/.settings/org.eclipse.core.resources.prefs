@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//WebContent/BBS/all.jsp=UTF-8
+encoding//WebContent/BBS/bottom.jsp=UTF-8
+encoding//WebContent/BBS/content.jsp=UTF-8
+encoding//WebContent/BBS/follow.jsp=UTF-8
+encoding//WebContent/BBS/personal.jsp=UTF-8
+encoding//WebContent/BBS/relea_frame.jsp=UTF-8
+encoding//WebContent/BBS/release.jsp=UTF-8
+encoding//WebContent/BBS/top.jsp=UTF-8
+encoding//WebContent/backstage_jsp/journal.jsp=UTF-8
+encoding//WebContent/error_jsp/NotIntoMain.jsp=UTF-8
+encoding//WebContent/error_jsp/NotToAdmin.jsp=UTF-8
+encoding//WebContent/error_jsp/exitSystem.jsp=UTF-8
+encoding//WebContent/error_jsp/recur404.jsp=UTF-8
+encoding//WebContent/success_jsp/chechsuccess.jsp=UTF-8
+encoding//src/com/myproject/controller/servlet/AddressServlet.java=UTF-8
+encoding/<project>=UTF-8

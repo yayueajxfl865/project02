@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+
+<!-- 引入配置文件 -->
+<properties resource="bdconf.properties"></properties>
+
+<!-- 别名打处理器，为java类型起别名 -->
+<typeAliases>
+
+<!-- 1~单个起别名 -->
+
+
+<typeAlias type="com.xfl.mybatis.bean.Employee"/>
+ 
+
+<!-- 2~为某个包下的类批量起别名，别名是类名第一个字母小写-->
+
+<!-- 
+<package name="com.xfl.mybatis.bean"/>
+ -->
+
+<!-- 3~使用@Alias注解 -->
+</typeAliases>
+
+
+
+ 
+
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${jdbc.Driver}" />
+				<property name="url" value="${jdbc.url}" />
+				<property name="username" value="${jdbc.username}" />
+				<property name="password" value="${jdbc.password}" />
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<!-- 支持多数据库厂商的标签   type="DB_VENDOR" ,作用就是的数据库厂商的标识-->
+<databaseIdProvider type="DB_VENDOR">
+
+<!-- 为每个数据库起别名 -->
+<property name="MySQL" value="mysql"/>
+<property name="Oracle" value="oracle"/>
+<property name="SQL Server" value="sqlserver"/>
+
+</databaseIdProvider>
+	
+	<!-- 将我们写好的sql映射文件（EmployeeMapper.xml）一定要注册到全局配置文件（mybatis-config.xml）中 -->
+	<mappers>
+	
+	<!-- 
+		<mapper resource="EmployeeMapper.xml" /> -->
+		
+		<package name="com.xfl.mybatis.dao"/>
+	</mappers>
+</configuration>

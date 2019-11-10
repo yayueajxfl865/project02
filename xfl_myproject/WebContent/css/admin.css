@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+/* 通用css样式 */
+
+/*取消container响应设计,使container宽度恒定为1200px*/
+.container{width:1200px;}
+
+/* 首页-中心介绍栏面板及内部长文字段落样式 */
+.index-zx-panel{width:270px; height:245px;}
+.index-zx-panel p:nth-child(5){height:96px;}
+
+/* 首页-服务项目item样式 */
+.index-fw-item{width:287px; height:210px; text-align:center;}
+
+/* 首页-最新动态表格样式 */
+.index-dt-table tr td{
+	vertical-align: middle;
+	height:60px;
+	border:none;
+}
+.index-dt-table tr td:nth-child(1){text-align:right;}
+
+/*通用：表格去边框*/
+.table-noborder tr td{border:none;}
+
+/*通用：表格单元格垂直居中*/
+.table-vertical tr td{
+	vertical-align: middle;
+}
+
+/*通用：文章列表样式*/
+.media-ul img{width:170px; height:110px;}
+.media-ul li{height:120px;}
+
+/*通用：列表菜单ul li样式 */
+.diy-active{background-color:#42A4FF;}
+.diy-active a{color:#FFFFFF;}
+.diy-nav a{padding:10px 10px 10px 10px;}

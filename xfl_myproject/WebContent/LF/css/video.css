@@ -1,0 +1,16 @@
+/* video-55bbs by chenz 2014-10-31 */
+.forward{margin:5px 10px 7px;}
+.forward .sina, .forward .qzone{margin-top: 0;}
+.video-box{margin: 0 auto; width: 320px; height: 210px; overflow: hidden;}
+.video-player{height: 180px; overflow: hidden;}
+.video-box h1{font:16px/30px arial; color: #333; margin: 0 auto; width: 300px; height: 30px; text-align: center; overflow: hidden;}
+.recom-box{display:box;display:-moz-box;display:-webkit-box; box-orient:horizontal; -moz-box-orient:horizontal;-webkit-box-orient:horizontal; padding: 10px 0;}
+.recom-box .box{box-flex: 1;-webkit-box-flex: 1;}
+.recom-box .divis{width: 10px;}
+.recom-box a{position: relative; display: block;}
+.recom-box img{vertical-align: top; max-width: 100%;}
+.recom-box p{position: absolute; bottom: 0; padding: 0 3px; overflow: hidden; width: 100%; height: 22px; background: rgba(0,0,0,.8); color: #fff; font:12px/22px arial; box-sizing: border-box;}
+.recom-box span{float: right;}
+.recom-box em{position: absolute; left: 50%; bottom: 50%; margin-left: -15px; margin-bottom: -7px; width: 30px; height: 30px; background: url(../images/video-icon.png) no-repeat; background-size: 30px 30px;}
+.list-box{margin: 0 10px;}
+.list-box .header h3{padding: 0;}
